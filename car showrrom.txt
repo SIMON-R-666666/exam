@@ -1,0 +1,52 @@
+#This program is a kind of bot which helps user to communicate 
+print('Hello sir,Wellcome to our one and only  car showroom....')
+name=input('your name sir ?\n-->')
+x=input('Ok '+name+',Which car do you looking for ?\nwe have many types of cars like:-\n1)sedan\n2)SUV\n3)compact SUV\n4)luxuary\n(Please enter only no.)\n-->')
+
+if(x==str(1)):
+    a=input('Ohh sedan,Thats a perfect choice,\nWe have Four models of this type of cars:-\n1)SWIFT\n2)ALTO\n3)XCENT\n4)VERNA\nWhich car do you want '+name+'?\n(Please enter only no.)\n-->')
+    
+    for a in range(4):
+        n=0
+        if(a==n):
+            input('ok '+name+',Now again we have Four colour options in this perticular model:\n1)RED\n2)BLUE\n3)WHITE\n4)BLACK\nWhich one do you prefer...\n(Please enter only no.)\n-->')
+            
+        n=n+1
+    print('Ok,we got all your requirements\nOur staff will call you for a test ride as soon as possible\nHave a good day...')     
+   
+elif(x==str(2)):
+    a=input('Ohh SUV,Thats a perfect choice,\nWe have Four models of this type of cars:-\n1)MAHINDRA THAR\n2)TOYOTA FORTUNER\n3)FORD ENDEVER\n4)FORCE GURKHA\nWhich car do you want Mr.'+name+'?\n(Please enter only no.)\n-->')  
+    
+    for a in range(4):
+        n=0
+        if(a==n):
+            input('ok '+name+',Now again we have Four colour options in this perticular model:\n1)RED\n2)BLUE\n3)WHITE\n4)BLACK\nWhich one do you prefer...\n(Please enter only no.)\n-->')
+            
+        n=n+1
+    print('Ok,we got all your requirements\nOur staff will call you for a test ride as soon as possible\nHave a good day...') 
+       
+    
+    
+elif(x==str(3)):
+    a=input('Ohh compact SUV,Thats a perfect choice,\nWe have Four models of this type of cars:-\n1)MAHINDRA SCORPIO-N\n2)MAHINDRA SCORPIO-CLASSIC\n3)JEEP COMPASS\n4)HYUNDAI CRETA\nWhich car do you want Mr.'+name+'?\n(Please enter only no.)\n-->')
+    for a in range(4):
+        n=0
+        if(a==n):
+            input('ok '+name+',Now again we have Four colour options in this perticular model:\n1)RED\n2)BLUE\n3)WHITE\n4)BLACK\nWhich one do you prefer...\n(Please enter only no.)\n-->')
+            
+        n=n+1
+    print('Ok,we got all your requirements\nOur staff will call you for a test ride as soon as possible\nHave a good day...')    
+  
+elif(x==str(4)):
+    a=input('Ohh luxuary,Thats a perfect choice,\nWe have Four models of this type of cars:-\n1)BMW M5 COMPITITION\n2)BMW SERIES-7\n3)MERCEDESE MAYBACK\n4)ROLLS ROYCE(customized)\nWhich car do you want Mr.'+name+'?\n(Please enter only no.)\n-->') 
+    for a in range(4):
+        n=0
+        if(a==n):
+            input('ok '+name+',Now again we have Four colour options in this perticular model:\n1)RED\n2)BLUE\n3)WHITE\n4)BLACK\nWhich one do you prefer...\n(Please enter only no.)\n-->')
+            
+        n=n+1
+    print('Ok,we got all your requirements\nOur staff will call you for a test ride as soon as possible\nHave a good day...')
+else:
+     print('Bhosdike galat number dala hai...')
+       
+       
